@@ -1,0 +1,29 @@
+.project{ 
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #ffffff); */
+   display: flex;
+   position: relative;
+   align-items: center;
+}
+.project__img{
+    width: 100%;
+    object-fit: cover;
+    height: 374px;
+}
+.project__content{
+    right: 0;  
+    left: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    background: #00000096;
+}
+
+.project-title{
+    color: #ffffff;
+    font-size: 30px;
+}
+ 

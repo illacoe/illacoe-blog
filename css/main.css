@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Work+Sans&display=swap");
+
+/* header */
+
+@import "./header/logo.css";
+@import "./header/icon.css";
+@import "./header/navbar.css";
+
+/* components  */
+
+@import "./components/card.css";
+@import "./components/item.css";
+@import "./components/cluster.css";
+@import "./components/next-project.css";
+@import "./components/btn.css";
+@import "./components/card-about.css";
+@import './components/about.css';
+
+/* footer */
+
+@import "./footer/footer.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", Helvetica, sans-serif !important;
+  }
+.main{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 4rem;
+}
+.container{
+    width: 1250px;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.section-title{
+    margin: 10px 0 0 0;
+}
+.xl-title{
+    font-size: 60px;
+}
+.text__404{
+    text-decoration: none;
+    color: #000000;
+}
+@media (max-width: 768px){
+    .xl-title{ 
+        font-size: 28px;
+        margin: 20px 0 0 0;
+    }
+}

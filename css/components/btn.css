@@ -1,0 +1,35 @@
+.project-btn{
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14px;  
+    text-transform: uppercase;
+    outline: none;
+    margin: 10px 0;
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+}
+.project-btn:hover{
+    background-color: #ffffff; 
+    color: #000000;
+    transition-duration: .3s;
+}
+
+.project-btn-dark{
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14px;  
+    text-transform: uppercase;
+    outline: none;
+    margin: 10px 0;
+    text-align: center;
+    border: 3px solid black;
+    color: black;
+}
+.project-btn-dark:hover{
+    background-color: #000000; 
+    color: #ffffff;
+    transition-duration: .3s;
+}

@@ -1,0 +1,25 @@
+.footer{
+    display: flex; 
+    padding-top: 30px;
+   border: .07143rem solid #ebebeb;
+}
+.column__list{
+    list-style: none;
+    padding: 0;
+}
+.column-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.column-link{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer-bottom{
+    display: flex;
+    margin: 20px 0; 
+}
+.credits{
+    width: fit-content;
+   
+}

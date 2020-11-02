@@ -1,0 +1,56 @@
+.section__cluster-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+ 
+.about__photo{ 
+   
+    z-index: 2;
+}
+.about__img{
+    width: 100%;
+    z-index: 2;
+    object-fit: cover; 
+    border-radius: 6px;
+}
+.about__description{
+    margin: auto;
+}
+ 
+.about__subtitle{
+ display: flex;
+ flex-direction: column;
+}
+
+.about__columns-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-list{
+    list-style-image: url('./../../img/checkmark (1).svg');  
+}
+.about-sub1{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.about-sub2{
+    font-size: 20px;
+    color: #53595e;
+    font-weight: bolder;
+}
+.about-dot{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px){
+    .about__img, .about__photo{
+        width: 100%;
+        position: initial; 
+    }
+    .about__square-color{
+       display: none;}
+    .section__cluster-about{
+        grid-template-columns: 1fr;
+    }
+}

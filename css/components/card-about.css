@@ -1,0 +1,50 @@
+.card__about{
+    position: relative;
+    height: 460px;
+    border-radius: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+} 
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-paraph{
+    font-size: 13px;
+}
+.card__img-about{
+    object-fit: cover;
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    border-radius: 10px;
+}
+.card__img:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.card__description{ 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    margin: 20px 40px;
+}
+
+.card__paragraph{
+    display: flex;
+    align-items: center;
+}
+
+.white{
+    color:#ffffff;
+}
+
+@media (max-width: 768px){
+    .card__about, .card__img-about{
+        
+        height: 260px;
+         
+    }
+}
